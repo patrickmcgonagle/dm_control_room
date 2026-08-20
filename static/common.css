@@ -1,0 +1,12 @@
+:root {
+  --bg:#0c0f12; --panel:#14191f; --panel2:#1b222a; --line:#2b3540; --text:#edf2f5;
+  --muted:#99a6b2; --accent:#d2a84a; --accent2:#e7c86e; --danger:#d76565; --good:#69b47c;
+}
+*{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at top,#17202a 0,#0c0f12 42%);color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif;min-height:100vh}
+button,input,select,textarea{font:inherit} button{cursor:pointer}
+.btn{border:1px solid var(--line);background:#202832;color:var(--text);padding:9px 12px;border-radius:8px;font-weight:650;transition:.15s}
+.btn:hover{transform:translateY(-1px);border-color:#4b5968}.btn.primary{background:var(--accent);color:#17130a;border-color:var(--accent)}.btn.danger{background:#3a2023;border-color:#71363b}.btn.good{background:#1d3324;border-color:#386b46}.btn.small{padding:5px 8px;font-size:12px}.btn.ghost{background:transparent}
+input,select,textarea{width:100%;background:#0f1419;color:var(--text);border:1px solid var(--line);border-radius:7px;padding:8px} textarea{min-height:110px;resize:vertical}
+.panel{background:linear-gradient(180deg,rgba(28,35,43,.96),rgba(18,23,29,.96));border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,.18)}
+.label{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:800}.muted{color:var(--muted)}
+.badge{font-size:11px;padding:3px 7px;border-radius:999px;background:#25303a;border:1px solid #354351;color:#dce4ea}
