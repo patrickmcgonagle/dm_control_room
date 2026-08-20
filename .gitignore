@@ -1,0 +1,21 @@
+# Runtime campaign/user data (may contain characters, imported content, Hue keys, and personal paths)
+/data/state.json
+/data/custom_spells.json
+/data/library_config.json
+/data/*.tmp
+
+# User-supplied media. The app creates its media subfolders automatically.
+/media/**
+!/media/README.md
+
+# Generated caches / local tooling
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local packaging artifacts
+*.zip
