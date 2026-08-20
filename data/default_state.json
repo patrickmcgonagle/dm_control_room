@@ -1,0 +1,251 @@
+{
+  "campaign": "Shadows of the Misty Forest",
+  "session": "Session 1",
+  "displayMode": "scene",
+  "displayVisible": true,
+  "currentSceneId": "forest-intro",
+  "round": 1,
+  "turnIndex": 0,
+  "players": [
+    {
+      "id": "orc",
+      "name": "Orc Fighter",
+      "hp": 14,
+      "maxHp": 14,
+      "ac": 16,
+      "passive": 11,
+      "initiative": 0,
+      "condition": "",
+      "speed": 30,
+      "spellDC": "",
+      "stats": {
+        "str": "",
+        "dex": "",
+        "con": "",
+        "int": "",
+        "wis": "",
+        "cha": ""
+      },
+      "notes": ""
+    },
+    {
+      "id": "fairy",
+      "name": "Fairy Rogue",
+      "hp": 9,
+      "maxHp": 9,
+      "ac": 14,
+      "passive": 13,
+      "initiative": 0,
+      "condition": "",
+      "speed": 30,
+      "spellDC": "",
+      "stats": {
+        "str": "",
+        "dex": "",
+        "con": "",
+        "int": "",
+        "wis": "",
+        "cha": ""
+      },
+      "notes": ""
+    },
+    {
+      "id": "druid",
+      "name": "Elven Druid",
+      "hp": 10,
+      "maxHp": 10,
+      "ac": 14,
+      "passive": 12,
+      "initiative": 0,
+      "condition": "",
+      "speed": 30,
+      "spellDC": "",
+      "stats": {
+        "str": "",
+        "dex": "",
+        "con": "",
+        "int": "",
+        "wis": "",
+        "cha": ""
+      },
+      "notes": ""
+    },
+    {
+      "id": "apprentice",
+      "name": "Druid Apprentice",
+      "hp": 9,
+      "maxHp": 9,
+      "ac": 13,
+      "passive": 12,
+      "initiative": 0,
+      "condition": "",
+      "speed": 30,
+      "spellDC": "",
+      "stats": {
+        "str": "",
+        "dex": "",
+        "con": "",
+        "int": "",
+        "wis": "",
+        "cha": ""
+      },
+      "notes": ""
+    },
+    {
+      "id": "ranger",
+      "name": "Ranger",
+      "hp": 12,
+      "maxHp": 12,
+      "ac": 15,
+      "passive": 14,
+      "initiative": 0,
+      "condition": "",
+      "speed": 30,
+      "spellDC": "",
+      "stats": {
+        "str": "",
+        "dex": "",
+        "con": "",
+        "int": "",
+        "wis": "",
+        "cha": ""
+      },
+      "notes": ""
+    }
+  ],
+  "enemies": [],
+  "initiative": [],
+  "scenes": [
+    {
+      "id": "forest-intro",
+      "title": "The Misty Forest",
+      "subtitle": "The deeper you travel, the quieter the forest becomes...",
+      "image": "",
+      "music": "",
+      "ambience": "",
+      "hueScene": "",
+      "notes": "Introduce the unnatural quiet. Flowers fail to bloom, leaves wilt, and the animals have gone distant.",
+      "tabletopMap": null
+    },
+    {
+      "id": "crossroads",
+      "title": "The Crossroads",
+      "subtitle": "Branches snap somewhere beyond the trail.",
+      "image": "",
+      "music": "",
+      "ambience": "",
+      "hueScene": "",
+      "notes": "The druids are attacked. The orc and fairy approach from different directions. The ranger can provide a distant arrow if needed.",
+      "tabletopMap": null
+    },
+    {
+      "id": "keep",
+      "title": "The Ruined Keep",
+      "subtitle": "A silent suit of armor stands beside the sealed entrance.",
+      "image": "",
+      "music": "",
+      "ambience": "",
+      "hueScene": "",
+      "notes": "Animated armor guards the closed door. This is the latest point for the ranger to catch up.",
+      "tabletopMap": null
+    },
+    {
+      "id": "cocoons",
+      "title": "The Cocoon Chamber",
+      "subtitle": "Something moves inside the web-wrapped shapes along the walls.",
+      "image": "",
+      "music": "",
+      "ambience": "",
+      "hueScene": "",
+      "notes": "Zombies rip free from spider cocoons and surround the party.",
+      "tabletopMap": null
+    },
+    {
+      "id": "spider",
+      "title": "The Spider's Lair",
+      "subtitle": "The web trembles. Something enormous descends from the darkness.",
+      "image": "",
+      "music": "",
+      "ambience": "",
+      "hueScene": "",
+      "notes": "Final level-one battle with the giant spider. Seed evidence that something intelligent was directing it.",
+      "tabletopMap": null
+    }
+  ],
+  "sfx": [],
+  "audio": {
+    "music": {
+      "src": "",
+      "playing": false,
+      "volume": 0.65,
+      "seq": 0
+    },
+    "ambience": {
+      "src": "",
+      "playing": false,
+      "volume": 0.5,
+      "seq": 0
+    },
+    "sfx": {
+      "src": "",
+      "volume": 0.8,
+      "seq": 0
+    }
+  },
+  "hue": {
+    "bridgeIp": "",
+    "appKey": "",
+    "lastStatus": "Not configured"
+  },
+  "updatedAt": 0,
+  "tabletop": {
+    "visible": true,
+    "sourceType": "none",
+    "sourceKind": "image",
+    "sourceUrl": "",
+    "sourceName": "",
+    "youtubeUrl": "",
+    "displayFit": "fill",
+    "playing": true,
+    "loop": true,
+    "muted": true,
+    "playbackSeq": 0,
+    "restartSeq": 0,
+    "mapZoom": 100,
+    "mapX": 0,
+    "mapY": 0,
+    "mapRotation": 0,
+    "brightness": 100,
+    "shape": "circle",
+    "maskWidth": 82,
+    "maskHeight": 82,
+    "maskX": 0,
+    "maskY": 0,
+    "maskRotation": 0,
+    "gridEnabled": true,
+    "gridType": "square",
+    "gridSize": 64,
+    "gridOpacity": 0.55,
+    "gridThickness": 1,
+    "gridColor": "#ffffff",
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "fogEnabled": false,
+    "fogOpacity": 0.65,
+    "calibrationPattern": false,
+    "measureMode": false,
+    "locked": false,
+    "profiles": [],
+    "tokens": [],
+    "tokensVisible": true,
+    "tokenSnap": true,
+    "tokenMovementLocked": false,
+    "tokenShowNames": true,
+    "outputWidth": 0,
+    "outputHeight": 0,
+    "sourceLibraryPath": "",
+    "shareEnabled": false,
+    "shareFullScreen": true,
+    "shareAnimate": false
+  }
+}
